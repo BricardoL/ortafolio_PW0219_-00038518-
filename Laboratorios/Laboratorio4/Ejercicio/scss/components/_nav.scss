@@ -1,0 +1,22 @@
+$color1: #1188FF;
+nav{
+    @include set-dimensions(100%, auto);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    .btnsource{
+        color: $color1;
+        margin: 0.5em;
+        padding: 0.5em;
+    }
+    .btnsite{
+        color: aqua;
+        margin: 0.5em;
+        padding: 0.5em;
+    }
+    .btnfaq{
+        color: burlywood;
+        margin: 0.5em;
+        padding: 0.5em
+    }
+}

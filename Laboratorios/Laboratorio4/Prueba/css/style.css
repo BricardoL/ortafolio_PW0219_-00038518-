@@ -1,0 +1,17 @@
+body {
+  width: 50%;
+  height: 100%;
+}
+
+.container {
+  background-color: #8289df;
+}
+
+.container .btn {
+  background-color: orange;
+}
+
+.container:hover {
+  background-color: lightcoral;
+}
+/*# sourceMappingURL=style.css.map */
